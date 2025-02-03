@@ -21,21 +21,21 @@ function Home() {
     <div className={'mt-4 flex flex-col space-y-24 py-14'}>
       <div className={'container mx-auto'}>
         <Hero
-          pill={
-            <Pill label={'New'}>
-              <span>The leading SaaS Starter Kit for ambitious developers</span>
-            </Pill>
-          }
           title={
             <>
-              <span>The ultimate SaaS Starter</span>
-              <span>for your next project</span>
+              <span>Newsletter automation</span>
+              <span>at jet speed</span>
             </>
           }
           subtitle={
             <span>
-              Build and Ship a SaaS faster than ever before with the next-gen
-              SaaS Starter Kit. Ship your SaaS in days, not months.
+              Transform your content ideas into polished newsletters without
+              lifting a finger. Letrjet is the first{' '}
+              <u>
+                <b>AI-first</b>
+              </u>{' '}
+              newsletter platform that truly automates your entire workflow
+              while keeping you in control.
             </span>
           }
           cta={<MainCallToActionButton />}
@@ -165,12 +165,6 @@ function MainCallToActionButton() {
               }
             />
           </span>
-        </Link>
-      </CtaButton>
-
-      <CtaButton variant={'link'}>
-        <Link href={'/contact'}>
-          <Trans i18nKey={'common:contactUs'} />
         </Link>
       </CtaButton>
     </div>

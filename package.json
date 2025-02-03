@@ -6,8 +6,8 @@
     "node": ">=v18.18.0"
   },
   "author": {
-    "url": "https://makerkit.dev",
-    "name": "MakerKit"
+    "url": "https://Letrjet.com",
+    "name": "Letrjet"
   },
   "scripts": {
     "preinstall": "pnpm run --filter scripts requirements",
